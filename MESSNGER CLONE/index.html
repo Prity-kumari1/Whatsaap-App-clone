@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Massenger clone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container">
+        <div class="whatsaap_box">
+            <!-- header section -->
+            <header>
+                <div class="header_content">
+                    <div class="top_head">
+                        <h5>WhatsApp</h5>
+                        <div class="top_icon">
+                            <i class="fa fa-camera"></i>
+                            <i class="fa fa-search"></i>
+                            <i class="fa-solid fa-ellipsis-vertical"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="user">
+                    <div class="btn_head" id="user_sec">
+                        <button id="user_part"> <i class="fa fa-users"></i></button>
+                    </div>
+                    <div class="btn_head " id="head_sec">
+                        <button id="chats" class="active">Chats</button>
+                        <button id="status">Status</button>
+                        <button id="calls">Calls</button>
+                    </div>
+                </div>
+            </header>
+            <!-- CONTACT LIST -->
+            <div class="screen">
+
+                <div class="contact_list">
+                    <ul class="usercontactlist">
+                        <li>
+                            <div class="profile_sec">
+                                <img src="images/man_av.png" alt="">
+                            </div>
+                            <div class="contact_sec">
+                                <h5>Ronit Singh </h5>
+                                <small>Hello, How are you?</small>
+                            </div>
+                            <div class="msg_counter">
+                                <small class="time">10:00 am</small>
+                                <small class="count">14</small>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="profile_sec">
+                                <img src="images/image.png" alt="">
+                            </div>
+                            <div class="contact_sec">
+                                <h5>Sikha</h5>
+                                <small>hello, How about your study?</small>
+                            </div>
+                            <div class="msg_counter">
+                                <small class="time">09:00 am</small>
+                                <small class="count">02</small>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="profile_sec">
+                                <img src="images/man-avatar.jpg" alt="">
+                            </div>
+                            <div class="contact_sec">
+                                <h5>Kajal</h5>
+                                <small>Channel link's</small>
+                            </div>
+                            <div class="msg_counter">
+                                <small class="time">06:00 am</small>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="profile_sec">
+                                <img src="images/man4.png" alt="">
+                            </div>
+                            <div class="contact_sec">
+                                <h5>Prita Roy</h5>
+                                <small>Call Me</small>
+                            </div>
+                            <div class="msg_counter">
+                                <small class="time">08:00 am</small>
+                                <small class="count">10</small>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="profile_sec">
+                                <img src="images/images5.png" alt="">
+                            </div>
+                            <div class="contact_sec">
+                                <h5>Raj </h5>
+                                <small>Hey, Bro How are you</small>
+                            </div>
+                            <div class="msg_counter">
+                                <small class="time">7:00 am</small>
+                                <small class="count">02</small>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="profile_sec">
+                                <img src="images/man_av.png" alt="">
+                            </div>
+                            <div class="contact_sec">
+                                <h5>Vikash </h5>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="profile_sec">
+                                <img src="images/image.png" alt="">
+                            </div>
+                            <div class="contact_sec">
+                                <h5>Ronit 2</h5>
+                            </div>
+                            <div class="msg_counter">
+                                <small class="time">06:00 am</small>
+                                <small class="count">01</small>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="profile_sec">
+                                <img src="images/man-avatar.jpg" alt="">
+                            </div>
+                            <div class="contact_sec">
+                                <h5>Priyanka</h5>
+                                <small>Call you later</small>
+                            </div>
+                            <div class="msg_counter">
+                                <small class="time">10:00 am</small>
+                                <small class="count">14</small>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="profile_sec">
+                                <img src="images/man4.png" alt="">
+                            </div>
+                            <div class="contact_sec">
+                                <h5>Ronit Singh 2</h5>
+                                <small>Channel link's</small>
+                            </div>
+                            <div class="msg_counter">
+                                <small class="time">10:00 am</small>
+                                <small class="count">14</small>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="profile_sec">
+                                <img src="images/images5.png" alt="">
+                            </div>
+                            <div class="contact_sec">
+                                <h5>Ronit Singh 2</h5>
+                                <small>Channel link's</small>
+                            </div>
+                            <div class="msg_counter">
+                                <small class="time">10:00 am</small>
+                                <small class="count">14</small>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="profile_sec">
+                                <img src="images/man_av.png" alt="">
+                            </div>
+                            <div class="contact_sec">
+                                <h5>Ronit Singh 2</h5>
+                                <small>Channel link's</small>
+                            </div>
+                            <div class="msg_counter">
+                                <small class="time">10:00 am</small>
+                                <small class="count">14</small>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="profile_sec">
+                                <img src="images/image.png" alt="">
+                            </div>
+                            <div class="contact_sec">
+                                <h5>Ronit Singh 2</h5>
+                                <small>Channel link's</small>
+                            </div>
+                            <div class="msg_counter">
+                                <small class="time">10:00 am</small>
+                                <small class="count">14</small>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="profile_sec">
+                                <img src="images/man4.png" alt="">
+                            </div>
+                            <div class="contact_sec">
+                                <h5>Ronit Singh 2</h5>
+                                <small>Channel link's</small>
+                            </div>
+                            <div class="msg_counter">
+                                <small class="time">10:00 am</small>
+                                <small class="count">14</small>
+                            </div>
+                        </li>
+                    </ul>
+                    <button class="chatBtn"><i class="fa fa-commenting"></i></button>
+
+                </div>
+                <!-- status ares started here -->
+                <div class="status_area">
+                    <ul>
+                        <li>
+                            <div class="my_status">
+                                <img src="images/image.png" alt="">
+                                <i class="fa fa-plus" aria-hidden="true"></i>
+                            </div>
+                            <div class="status_contact">
+                                <h5>My Status</h5>
+                                <p>Tap to add status update</p>
+                            </div>
+                        </li>
+                        <p class="status_txt">recent update</p>
+                        <li>
+                            <div class="status_recent">
+                                <img src="images/image.png" alt="">
+                            </div>
+                            <div class="status_contact">
+                                <h5>Kajal</h5>
+                                <p>5 minutes</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="status_recent">
+                                <img src="images/image.png" alt="">
+                            </div>
+                            <div class="status_contact">
+                                <h5>My Status</h5>
+                                <p>Tap to add status_area update</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="status_recent">
+                                <img src="images/image.png" alt="">
+                            </div>
+                            <div class="status_contact">
+                                <h5>My Status</h5>
+                                <p>Tap to add status_area update</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="status_recent">
+                                <img src="images/image.png" alt="">
+                            </div>
+                            <div class="status_contact">
+                                <h5>My Status</h5>
+                                <p>Tap to add status_area update</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="status_recent">
+                                <img src="images/image.png" alt="">
+                            </div>
+                            <div class="status_contact">
+                                <h5>My Status</h5>
+                                <p>Tap to add status_area update</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="status_recent">
+                                <img src="images/image.png" alt="">
+                            </div>
+                            <div class="status_contact">
+                                <h5>My Status</h5>
+                                <p>Tap to add status_area update</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="status_recent">
+                                <img src="images/image.png" alt="">
+                            </div>
+                            <div class="status_contact">
+                                <h5>My Status</h5>
+                                <p>Tap to add status_area update</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="status_recent">
+                                <img src="images/image.png" alt="">
+                            </div>
+                            <div class="status_contact">
+                                <h5>My Status</h5>
+                                <p>Tap to add status_area update</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="status_recent">
+                                <img src="images/image.png" alt="">
+                            </div>
+                            <div class="status_contact">
+                                <h5>My Status</h5>
+                                <p>Tap to add status_area update</p>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="status_btn">
+                        <div class="blockbtn">
+                            <button><i class="fa fa-pencil"></i></button>
+                            <button><i class="fa fa-camera"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <!-- calls area are started here  -->
+                <div class="calls_area">
+                    <ul>
+                        <li>
+                            <div class="icon_call">
+                                <i class="fa fa-link" aria-hidden="true"></i>
+                            </div>
+                            <div class="call_link">
+                                <h5>Create call link</h5>
+                                <small>Share a link for your Whatsaap call</small>
+                            </div>
+                        </li>
+                        <p class="status_txt">recent </p>
+                        <li>
+                            <div class="my_status">
+                                <img src="images/image.png" alt="">
+                            </div>
+                            <div class="status_contact">
+                                <h5>Kajal</h5>
+                                <div class="call_cont">
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                    <p>Just now</p>
+                                </div>
+                            </div>
+                            <div class="call_counter">
+                                <i class="fa-solid fa-video"></i>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="my_status">
+                                <img src="images/image.png" alt="">
+                            </div>
+                            <div class="status_contact">
+                                <h5>Kajal</h5>
+                                <div class="call_cont">
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                    <p>Just now</p>
+                                </div>
+                            </div>
+                            <div class="call_counter">
+                                <i class="fa-solid fa-phone"></i>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="my_status">
+                                <img src="images/image.png" alt="">
+                            </div>
+                            <div class="status_contact">
+                                <h5>Kajal</h5>
+                                <div class="call_cont">
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                    <p>Just now</p>
+                                </div>
+                            </div>
+                            <div class="call_counter">
+                                <i class="fa-solid fa-phone"></i>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="my_status">
+                                <img src="images/image.png" alt="">
+                            </div>
+                            <div class="status_contact">
+                                <h5>Kajal</h5>
+                                <div class="call_cont">
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                    <p>Just now</p>
+                                </div>
+                            </div>
+                            <div class="call_counter">
+                                <i class="fa-solid fa-video"></i>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="my_status">
+                                <img src="images/image.png" alt="">
+                            </div>
+                            <div class="status_contact">
+                                <h5>Kajal</h5>
+                                <div class="call_cont">
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                    <p>Just now</p>
+                                </div>
+                            </div>
+                            <div class="call_counter">
+                                <i class="fa-solid fa-video"></i>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="my_status">
+                                <img src="images/image.png" alt="">
+                            </div>
+                            <div class="status_contact">
+                                <h5>Kajal</h5>
+                                <div class="call_cont">
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                    <p>Just now</p>
+                                </div>
+                            </div>
+                            <div class="call_counter">
+                                <i class="fa-solid fa-phone"></i>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="my_status">
+                                <img src="images/image.png" alt="">
+                            </div>
+                            <div class="status_contact">
+                                <h5>Kajal</h5>
+                                <div class="call_cont">
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                    <p>Just now</p>
+                                </div>
+                            </div>
+                            <div class="call_counter">
+                                <i class="fa-solid fa-video"></i>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="my_status">
+                                <img src="images/image.png" alt="">
+                            </div>
+                            <div class="status_contact">
+                                <h5>Kajal</h5>
+                                <div class="call_cont">
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                    <p>Just now</p>
+                                </div>
+                            </div>
+                            <div class="call_counter">
+                                <i class="fa-solid fa-video"></i>
+                            </div>
+                        </li>
+                    </ul>
+                    <button class="callbtn"><i class="fa fa-phone"></i></button>
+                </div>
+                <!-- community -->
+                <div class="community_area">
+                    <ul>
+                        <li>
+                            <div class="community_icon">
+                                <i class="fa fa-user"></i>
+                                <i class="fa fa-plus"></i>
+                            </div>
+                            <div class="text_community">
+                                <h5>New Community</h5>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="content_chat_area">
+                <div class="header_contact">
+                    <div class="profile_contact">
+                        <i class="fa fa-arrow-left"></i>
+                        <img src="images/image.png" alt="">
+                    </div>
+                    <div class="contact_name">
+                        <h5>Ronit Singh</h5>
+                        <small>Online</small>
+                    </div>
+                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                </div>
+                <!-- CHAT SCREEN -->
+                <div class="chat_screen">
+                    <div class="chat_item">
+                        <p class="left_chat">This is left chat</p>
+                        <p class="right_chat">This is right chat</p>
+                        <p class="left_chat">This is left chat</p>
+                        <p class="right_chat">This is right chat</p>
+                        <p class="left_chat">This is left chat</p>
+                        <p class="right_chat">This is right chat</p>
+                        <p class="left_chat">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus, saepe deserunt? Dicta voluptate quo esse aliquam, ducimus quis nam eaque obcaecati aut ratione accusamus vero ipsam. Omnis praesentium ex temporibus sequi similique, aliquam voluptates. Quos consectetur, laborum tempore optio minus suscipit cupiditate repellat rerum animi accusamus delectus architecto. Possimus, illum earum.</p>
+                        <p class="right_chat">This is right chat</p>
+                        <p class="left_chat">This is left chat</p>
+                        <p class="right_chat">This is right chat</p>
+                        <p class="left_chat">This is left chat</p>
+                        <p class="right_chat">This is right chat</p>
+                        <p class="left_chat">This is left chat</p>
+                        <p class="right_chat">This is right chat</p>
+                        <p class="left_chat">This is left chat</p>
+                        <p class="right_chat">This is right chat</p>
+                        <p class="left_chat">This is left chat</p>
+                        <p class="right_chat">This is right chat</p>
+                        <p class="left_chat">This is left chat</p>
+                        <p class="right_chat">This is right chat</p>
+                        <p class="left_chat">This is left chat</p>
+                        <p class="right_chat">This is right chat</p>
+                        <p class="left_chat">This is left chat</p>
+                        <p class="right_chat">This is right chat</p>
+                    </div>
+                </div>
+                <div class="input_item">
+                    <!-- <i class=" fa fa-user"></i> -->
+                    <i class="fa-regular fa-face-smile"></i>
+                    <input type="text" placeholder="Meaasge">
+                    <div class="more_icons">
+                        <i class="fa-solid fa-paperclip"></i>
+                        <i class="fa-solid fa-indian-rupee-sign"></i>
+                        <i class="fa-solid fa-camera"></i>
+                    </div>
+                    <button class="microphone"> <i class="fa-solid fa-microphone"></i></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="/script.js"></script>
+</body>
+
+</html>
